@@ -1,5 +1,5 @@
 /* Reset default margin and padding */
-body, h1, h2, h3, p, ul {
+body, h1, h2, h3, p, img {
     margin: 0;
     padding: 0;
 }
@@ -13,42 +13,33 @@ body {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    padding: 50px 0;
 }
 
-/* Style project section */
-#projects {
-    padding: 20px;
+/* Style the profile section */
+.profile {
+    margin-bottom: 20px;
 }
 
-.project {
-    border: 1px solid #ddd;
-    padding: 10px;
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
     margin-bottom: 10px;
 }
 
-/* Style skills section */
-#skills {
-    background-color: #f9f9f9;
+/* Style other sections */
+section {
     padding: 20px;
 }
 
-/* Style contact section */
-#contact {
-    padding: 20px;
-}
-
-/* Style footer */
+/* Style the footer */
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
 }
