@@ -1,45 +1,30 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, p, img {
-    margin: 0;
-    padding: 0;
-}
-
-/* Set a background color and text color */
-body {
-    background-color: #f0f0f0;
-    color: #333;
-    font-family: Arial, sans-serif;
-}
-
 /* Style the header */
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
-}
-
-/* Style the profile section */
-.profile {
-    margin-bottom: 20px;
-}
-
-.profile img {
-    max-width: 150px;
-    border-radius: 50%;
-    border: 5px solid white;
-    margin-bottom: 10px;
-}
-
-/* Style other sections */
-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    background-color: #007BFF;
+    color: white;
 }
 
-/* Style the footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
     color: white;
+    font-weight: bold;
 }
