@@ -64,7 +64,6 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* Adjust the height as needed */
     background-color: #f9f9f9; /* Background color for the centered section */
 }
 
@@ -153,13 +152,12 @@ nav a {
 
 .experience-title {
     font-size: 24px;
-    margin: 0;
-    color: #007BFF;
+    color: #000;
 }
 
 .experience-date {
-    font-size: 14px;
-    color: #777;
+    font-size: 18px;
+    color: darkgray;
     margin-top: 5px;
 }
 
@@ -173,4 +171,44 @@ nav a {
     height: auto;
     display: block;
     margin: 20px auto;
+}
+
+footer {
+    background-color: #404040;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info, .social-links {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
 }
