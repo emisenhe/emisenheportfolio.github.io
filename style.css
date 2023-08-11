@@ -81,3 +81,96 @@ nav a {
     font-size: 18px;
     color: #777;
 }
+
+/* Apply styles to the entire "About Me" section */
+.about-content {
+    max-width: 800px; /* Limit content width for readability */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 30px; /* Add padding around the content */
+}
+
+/* Style headings */
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Style paragraphs */
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Create spacing between sections */
+.about-content > * {
+    margin-bottom: 30px;
+}
+
+/* Apply styles to the entire "Contact" section */
+.contact-content {
+    max-width: 800px; /* Limit content width for readability */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 30px; /* Add padding around the content */
+}
+
+/* Style headings */
+.contact-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-content h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Style paragraphs */
+.contact-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Create spacing between sections */
+.contact-content > * {
+    margin-bottom: 30px;
+}
+
+.experience-entry {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.experience-title {
+    font-size: 24px;
+    margin: 0;
+    color: #007BFF;
+}
+
+.experience-date {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.experience-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.experience-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
