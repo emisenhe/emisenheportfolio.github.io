@@ -22,7 +22,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     background-color: #404040;
     color: white;
 }
