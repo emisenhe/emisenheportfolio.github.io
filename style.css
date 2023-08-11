@@ -17,7 +17,6 @@ header {
 }
 
 .name {
-    flex-grow: 1;
     text-align: right;
 }
 
@@ -41,4 +40,26 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust the height as needed */
+    background-color: #f9f9f9; /* Background color for the centered section */
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.centered-content p {
+    font-size: 18px;
+    color: #777;
 }
