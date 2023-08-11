@@ -1,4 +1,23 @@
-/* Style the header */
+section {
+    padding: 100px 0;
+}
+
+#home {
+    background-color: #f9f9f9;
+}
+
+#about {
+    background-color: #fff;
+}
+
+#projects {
+    background-color: #f9f9f9;
+}
+
+#contact {
+    background-color: #fff;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,8 +40,7 @@ header {
 }
 
 .name h1 {
-    font-size: 24 px;
-    margin: 0;
+    font-size: 15 px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
